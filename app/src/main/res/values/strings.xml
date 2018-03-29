@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Athlete</string>
+    <string name="hello_kotlin">Hello Kotlin :)</string>
+    <string name="connection_error">Connection error</string>
+    <string name="something_error">Something went error</string>
+    <string name="unknown_error">Unknown error!</string>
+    <string name="cancel">Cancel</string>
+</resources>
