@@ -13,14 +13,15 @@ import com.example.mohamed.joke.base.service.ErrorHandler
 import com.example.mohamed.joke.module.home.adapter.AthleticsAdapter
 import com.example.mohamed.joke.module.home.pojo.AtheleticsResponse
 import com.example.mohamed.joke.module.home.service.AtheleticService
+import kotlinx.android.synthetic.main.activity_main.*
 import retrofit2.Call
 import retrofit2.Response
 
 class MainActivity : BaseActivity() {
 
     /** Android Views  */
-    lateinit var rvAthletics: android.support.v7.widget.RecyclerView
-    lateinit var progress: ProgressBar
+//    lateinit var rvAthletics: android.support.v7.widget.RecyclerView
+   // lateinit var progress: ProgressBar
 
     /** Android Views **/
 
@@ -53,8 +54,8 @@ class MainActivity : BaseActivity() {
     }
 
     private fun bindViews() {
-        rvAthletics = findViewById(R.id.rvAthletics)
-        progress = findViewById(R.id.progress)
+//        rvAthletics = findViewById(R.id.rvAthletics)
+//        progress = findViewById(R.id.progress)
     }
 
     private fun showProgress(show: Boolean) {
